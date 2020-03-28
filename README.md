@@ -5,6 +5,14 @@ Sotware testing involves identifying the test cases which discovers errors in th
 sotware is very time consuming. In this project we are prioritizing test case scenarios by identifying the critical path clusters 
 using genetic algorithm.
 
+we also compared the following algorithm results with genetic algortihm results and plotted graphs which you can see in one of foleder in repository
+1. Hill climbing 
+    i] Internal Swap
+    ii] Exeternal Swap
+2. Random Search
+3. Whale Optimisation
+
+
 # Method
 The test case scenarios are deliverd from the UML activity diagram and state chart digram.
 Tesing efficiency is optimized by applying the genetic algorithm on the test data.
@@ -32,4 +40,11 @@ applied to a randomly selected subset of the population.
 # Mutation :-
 Mutation alters chromosomes in small ways to introduce new good traits. It is applied to
 bring diversity in the population.
+
+
+
+# Whale Optimisation Algorithm
+meta-heuristic optimization algorithm, called Whale Opti- mization Algorithm (WOA), which mimics the social behavior of humpback whales. The algorithm is in- spired by the bubble-net hunting strategy. WOA is tested with 29 mathematical optimization problems and 6 structural design problems. Optimization results prove that the WOA algorithm is very competi- tive compared to the state-of-art meta-heuristic algorithms as well as conventional methods. The source codes of the WOA algorithm are publicly available at http://www.alimirjalili.com/WOA.html
+
+
 
